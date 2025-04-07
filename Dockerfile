@@ -22,6 +22,7 @@ RUN apk add --no-cache \
 	automake \
 	flex \
 	bison \
+	bash \
 	git \
 	coreutils \
 	linux-headers \
