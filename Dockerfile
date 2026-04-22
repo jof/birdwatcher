@@ -4,7 +4,7 @@
 #
 
 # Build birdwatcher
-FROM golang:1.13 AS birdwatcher
+FROM golang:1.22 AS birdwatcher
 
 WORKDIR /src/birdwatcher
 ADD . .
